@@ -6,6 +6,6 @@ namespace CommitLint.Models
 
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
 
-        public int ID { get; set; }
+        public int IDName { get; set; }
     }
 }
